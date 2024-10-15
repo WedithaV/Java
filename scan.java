@@ -7,7 +7,13 @@ public class scan{
     String name = scanner.nextLine();
     System.out.println("Enter your age:");
     int age = scanner.nextInt();
-    scanner.nextLine();
+
+    scanner.nextLine(); 
+    /*When use nextInt(); it will only scan integers. so "\n" part will remain in the
+     * scanner .To awoid that we again call the nextLine(); after that scanner will be empty
+     * and we can use it as usuall
+    */
+
     System.out.println("Enter your favorite sport:");
     String sport = scanner.nextLine();
 
