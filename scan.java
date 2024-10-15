@@ -17,6 +17,8 @@ public class scan{
     System.out.println("Enter your favorite sport:");
     String sport = scanner.nextLine();
 
+    scanner.close(); // Best parctice,Optional 
+
     System.out.println("Your name is "+name);
     System.out.println("Your age is "+age);
     System.out.println("Your favorite sport is "+sport);
