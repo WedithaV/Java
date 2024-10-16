@@ -24,6 +24,17 @@ public class LogicalOperators{
     }
 
 
+    System.out.println("Do you want to quit ? press 'q' or 'Q'");
+    String answer = scanner.next(); //next(); only read one word
+
+    if(!answer.equals("Q") && !answer.equals("q")){
+      System.out.println("Still playing");
+    }
+    else{
+      System.out.println("Quit the game");
+    }
+
+
     
   }
 }
