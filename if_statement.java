@@ -5,6 +5,7 @@ public class if_statement {
     Scanner scanner = new Scanner(System.in);
     System.out.println("Enter your age:");
     int x = scanner.nextInt();
+    scanner.close();
 
     if( x < 0){
       System.out.println("Age can not be negative");

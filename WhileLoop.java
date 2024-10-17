@@ -17,5 +17,6 @@ public class WhileLoop {
       System.out.println("Enter a character:");
       dtx = scanner.nextLine();
     }while(dtx.isBlank());
+    scanner.close();
   }
 }

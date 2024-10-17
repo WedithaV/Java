@@ -7,6 +7,7 @@ public class Maths_Basics {
     Scanner scanner = new Scanner(System.in);
     System.out.println("Enter y value: ");
     int y = scanner.nextInt();
+    scanner.close();
 
     double z = Math.sqrt(x*x + y*y);
     

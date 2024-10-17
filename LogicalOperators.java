@@ -5,6 +5,7 @@ public class LogicalOperators{
     System.out.println("Enter number:");
     int x = scanner.nextInt();
     scanner.nextLine();
+    scanner.close();
 
     if(x > 0 && x < 10){
       System.out.println("X is between 0 and 10");
