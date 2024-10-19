@@ -1,3 +1,4 @@
+package Basics;
 import javax.swing.JOptionPane;
 
 public class switch_statement {
