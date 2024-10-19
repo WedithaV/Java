@@ -1,4 +1,3 @@
-package Basics;
 public class Signature {
   public static void main(String[] args){
     /*

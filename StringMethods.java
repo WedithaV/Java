@@ -1,4 +1,3 @@
-package Basics;
 public class StringMethods{
   public static void main(String[] args){
     String sample = "Bro";
