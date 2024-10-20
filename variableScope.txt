@@ -1,0 +1,14 @@
+Local variables are declared inside methods, constructors, or blocks.
+They have a limited scope (only within the block where they are defined) 
+and must be initialized before use.
+
+Global variables in Java are represented by instance variables and class 
+variables:
+
+Instance variables are defined at the class level (but outside methods) and 
+belong to a specific object.
+
+Class variables (marked as static) are shared among all instances of a class.
+
+Local variables exist temporarily, while instance and class variables exist 
+for the lifetime of the object or class, respectively.
