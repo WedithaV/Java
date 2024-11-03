@@ -1,0 +1,20 @@
+Class Names: Start with an uppercase letter, use CamelCase.
+Example: Customer, ArrayList.
+
+Interface Names: Similar to class names, start with an uppercase letter, use CamelCase.
+Example: Runnable, Serializable.
+
+Method Names: Start with a lowercase letter, use camelCase for multiple words.
+Example: getName, calculateTotal.
+
+Variable Names: Start with a lowercase letter, use camelCase.
+Example: name, totalAmount.
+
+Constant Names: All uppercase letters, separate words with underscores.
+Example: MAX_VALUE, PI.
+
+Package Names: All lowercase letters, avoid underscores; typically follows reverse domain structure.
+Example: com.companyname.projectname.
+
+Generics (Type Parameters): Single uppercase letters.
+Example: T, E, K, V.
