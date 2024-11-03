@@ -1,6 +1,6 @@
-public class object{
+public class ObjectExplain{
   public static void main(String[] args){
-    car myCar = new car();
+    Car myCar = new Car();
 
     String a = myCar.brand;
     int b = myCar.year;
@@ -15,7 +15,7 @@ public class object{
   }
 }
 
-class car{
+class Car{
   String brand = "Benz";
   int year = 2020;
   double prize = 1000000.00;

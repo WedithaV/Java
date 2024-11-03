@@ -1,4 +1,4 @@
-public class printf_Method {
+public class PrintfMethod {
   public static void main(String[] args){
     //printf() = an optional mehtod to control,format, and display text to the console window
 

@@ -1,7 +1,7 @@
 import java.util.Scanner;
 import javax.swing.JOptionPane;
 
-public class Maths_Basics {
+public class MathsBasics {
   public static void main(String[] args){
     int x = Integer.parseInt(JOptionPane.showInputDialog("Enter x value"));
     Scanner scanner = new Scanner(System.in);

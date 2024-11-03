@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 import java.util.*;
 
-public class For_Each_Loop {
+public class ForEachLoop {
   public static void main(String[] args){
     String[] names = {"Weditha","Vishwa","Prabhath"};
 

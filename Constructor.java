@@ -1,4 +1,4 @@
-public class constructors {
+public class Constructor {
   public static void main(String[] args){
     //constructor =  special method that is called when an object is instantiated (created)
     //It helps to create objects with different attributes

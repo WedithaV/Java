@@ -4,7 +4,7 @@ public class VariableScope {
   }
 }
 
-class dog{
+class Dog{
   String name = "Tom"; //Global variable
   void bark(){
     int time = 10; //local variable

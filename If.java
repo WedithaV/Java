@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class if_statement {
+public class If {
   public static void main(String[] args){
     Scanner scanner = new Scanner(System.in);
     System.out.println("Enter your age:");

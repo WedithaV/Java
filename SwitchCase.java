@@ -1,6 +1,6 @@
 import javax.swing.JOptionPane;
 
-public class switch_statement {
+public class SwitchCase { 
   public static void main(){
     String date = JOptionPane.showInputDialog("Enter Day");
     switch(date){
@@ -18,3 +18,4 @@ public class switch_statement {
     }
   }
 }
+
