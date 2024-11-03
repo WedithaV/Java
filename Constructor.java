@@ -1,6 +1,7 @@
 public class Constructor {
   public static void main(String[] args){
     //constructor =  constructor is a specila method type which has no return type
+    //Constructors are only called automatically when an object is created with the new keyword.
     //It helps to create objects with different attributes
     Human human1 = new Human("Weditha",24,76);
     Human human2 = new Human("Kivindu",18,80);
