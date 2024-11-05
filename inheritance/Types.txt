@@ -1,0 +1,15 @@
+Single-Level Inheritance: A child class inherits from only one parent class. 
+Example: Class B inherits properties and methods from Class A.
+
+B -> A
+
+
+Multi-Level Inheritance: A chain of inheritance where a class inherits from a derived class, 
+forming multiple levels. Example: Class C inherits from Class B, which inherits from Class A.
+
+C -> B -> A
+
+Multiple Inheritance: A class inherits from more than one parent class. Java doesn’t support 
+this directly due to complexity but achieves it with interfaces.
+
+A <- C -> A
