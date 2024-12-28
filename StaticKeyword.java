@@ -20,6 +20,7 @@ public class StaticKeyword{
     Friends.display();
     friend2.addFriend("Vishwa");
     Friends.display();
+    Friends.displayName(friend2);
 
   }
 }
@@ -30,10 +31,16 @@ class Friends{
 
   void addFriend(String nameOfFriend){
     this.nameOfFriend = nameOfFriend;
-    numOfFriends++;
+    numOfFriends++;  //static variables can access within a instance method.
   }
   static void display(){
     System.out.println(numOfFriends);
 //  System.out.println(nameOfFriend);  cannot access instances variables
+  }
+
+  //To access a instance variable in a static method .
+  //We should pass the created object as a argument.
+  static void displayName(Friends obj){
+    System.out.println(obj.nameOfFriend);
   }
 }

@@ -1,14 +1,18 @@
-import java.util.Scanner;
-public class Test {
-  public static void main(String[] args){
-    Scanner scanner = new Scanner(System.in);
-    String A = scanner.nextLine();
-    String B = A.substring(0,1).toUpperCase();
-    A = B + A.substring(1);
-    System.out.println(A);
-    scanner.close();
-    
+public interface A {
+  public void display();
+  public void dtx();  
+}
 
+class B implements A{
+  public void display(){
+    System.out.println("A");
   }
-  
+  public void dtx(){
+    System.out.println("fkdjf");
+  }
+}
+public class Test{
+  public static void main(String[] args){
+    A a = new B();
+  }
 }
