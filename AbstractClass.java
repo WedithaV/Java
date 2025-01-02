@@ -15,10 +15,14 @@ public class AbstractClass {
         obj.drive();
         obj.fly();
         obj.playMusic();
+
+        obj.x = 22; // variables in abstract classes are normal (Not like in interfaces)
+        System.out.println(obj.x);
     }
 }
 
 abstract class Car{
+    int x = 10; //can initialize variables 
     public abstract void drive();
 
     public abstract void fly();
