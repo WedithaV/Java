@@ -3,8 +3,11 @@ public class Polymorphism{
         Animal animal = new Animal();
         animal.show();
 
-        Animal dog = new Dog();
-        dog.show();
+        animal = new Dog(); //This can be done only to subclasses .must have inheritence
+        animal.show();
+
+        animal = new Cat();
+        animal.show();
     }
 }
 
